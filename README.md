@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+## Forced Alignment of Speech and Transcription
+
+In laymen language, a forced-Alignment is a software package that basically aligns your audio recording to its transcripts at the level of phonemes (such as wa- sh- n- etc.). After the transcription (manual or auto) of audio with time-stamps, at the time of analysis, you will need to analyse specific parts of the audio for specific content that can as be large as sentences spoken over 10 sec to as small as utterances spoken over 10 milliseconds. To extract acoustic prosodic features of specific utterances, your transcription must be aligned to the audio at a very minute level and this is achieved by Forced-Alignment package, referred as FA hereafter.
+
+Majorly an FA is basically a bunch of coding scripts written in a lnagugage such as python that you need to run to do the task. It is not actually a software but simply some lines of codes that need to be run in an IDE or a terminal window of your mac. The FA coding scripts use 4 inputs basically - a transcript; an audio file; an acoustic model; and a pronounciation dictionary. The acoustic model are theoretical models such as HMM (Hidden Markov Model) or DNN (Deep Neural Networks) that set the framework for alignment and are in-built in the FA. The pronounciation dictionary is also an in-built dictionary with a set of vocabulary on which the acoustic model has been trained. You can also provide a new dictionary if your audio file has words outside the existing dictionary of FA you are using. So, basically, you just need to provide the audio and transcription file.
 
 You can use the [editor on GitHub](https://github.com/pawangupta-1/Analysing-speech/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
