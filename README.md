@@ -32,7 +32,15 @@ Syntax highlighted code block
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+### Running the Aligner
+So, I installed Montreal Forced Aligner (the instructions for installing it are here _____) and tried running it but received this error
+
+```markdown
+Intel MKL FATAL ERROR: This system does not meet the minimum requirements for use of the Intel(R) Math Kernel Library.
+The processor must support the Intel(R) Supplemental Streaming SIMD Extensions 3 (Intel(R) SSSE3) instructions.
+The processor must support the Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) instructions.
+The processor must support the Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+```
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pawangupta-1/Analysing-speech/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
